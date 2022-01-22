@@ -1,0 +1,53 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+    background-color: black;
+}
+
+
+
+.section { 
+    /*Alinhar itens no meio da página*/
+    display: flex;
+    justify-content: center;
+}
+
+.article {
+    color: green;
+    text-align:center;    
+    padding: 20px;
+    width: 600px;
+       
+}
+
+li{
+    text-align: right;
+      
+}
+
+a { 
+    text-decoration: unset;
+    color: green;
+}
+
+a:hover { 
+    color: white;
+}
+
+ul {
+    font-style:normal;
+    
+}
+
+.bio {
+    display: flex;
+    justify-content: space-around;
+    
+}
+.contato {
+    padding: 150px;
+}
+.contato2 { 
+    padding: 0px;
+    text-align: justify;
+    
+}
